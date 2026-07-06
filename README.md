@@ -97,3 +97,11 @@ US$0.30/M).
 ## License
 
 MIT. See `LICENSE`.
+
+## Published resources
+
+- GitHub repository: https://github.com/AntonioVFranco/slm-efficiency-frontier
+- Hugging Face Dataset: https://huggingface.co/datasets/AntonioVFranco/slm-efficiency-frontier-benchmark
+- Hugging Face Space: https://huggingface.co/spaces/AntonioVFranco/slm-efficiency-frontier
+- Tiny Classifier model card: https://huggingface.co/AntonioVFranco/slm-efficiency-baseline-tiny-classifier
+- Cross Encoder model card: https://huggingface.co/AntonioVFranco/slm-efficiency-baseline-cross-encoder
