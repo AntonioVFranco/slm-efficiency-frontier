@@ -1,0 +1,8 @@
+max_total_usd: 4.00
+target_total_usd: 2.00
+max_input_price_per_million_usd: 0.12
+max_output_price_per_million_usd: 0.30
+dry_run_default: true
+stop_on_unknown_price: true
+stop_on_budget_exceeded: true
+require_price_verification: true

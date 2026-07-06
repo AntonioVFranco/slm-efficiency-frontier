@@ -1,0 +1,7 @@
+runtime: "kaggle"
+accelerator: "auto"
+secret_name: "OPENROUTER_API_KEY"
+install_command: "pip install -e ."
+output_dir: "/kaggle/working"
+runpod_fallback: false
+runpod_fallback_note: "Only with explicit user approval for GPU-heavy tasks."

@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.key
+*.pem
+secrets.json
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data outputs
+data/runs/
+data/results/
+*.jsonl.bak
+
+# Kaggle
+/kaggle/
+kaggle_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

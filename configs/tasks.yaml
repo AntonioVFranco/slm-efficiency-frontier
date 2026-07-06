@@ -1,0 +1,30 @@
+task_families:
+  - id: "json_validity"
+    validator: "json_validity"
+    max_output_tokens: 256
+  - id: "tool_calling"
+    validator: "tool_calling"
+    max_output_tokens: 256
+  - id: "short_reasoning"
+    validator: "exact_match"
+    max_output_tokens: 128
+  - id: "structured_extraction"
+    validator: "exact_match"
+    max_output_tokens: 256
+  - id: "clause_conflict"
+    validator: "clause_conflict"
+    max_output_tokens: 64
+  - id: "table_reasoning"
+    validator: "table_reasoning"
+    max_output_tokens: 128
+  - id: "semantic_classification"
+    validator: "exact_match"
+    max_output_tokens: 32
+  - id: "judge_reranker"
+    validator: "exact_match"
+    max_output_tokens: 128
+  - id: "safe_action_selection"
+    validator: "exact_match"
+    max_output_tokens: 32
+
+# Future multilingual extensions are out of scope for v0.1.

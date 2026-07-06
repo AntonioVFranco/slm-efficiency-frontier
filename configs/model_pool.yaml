@@ -1,0 +1,656 @@
+# OpenRouter model pool.
+# Updated by Kaggle notebook 02_kaggle_openrouter_price_check.ipynb.
+# Eligibility requires input < 0.12 USD/1M and output < 0.30 USD/1M (exclusive).
+# Unknown/missing/ambiguous prices => eligible: false.
+
+models:
+  - model_id: "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+    provider: "cognitivecomputations"
+    context_window: 32768
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "cohere/north-mini-code:free"
+    provider: "cohere"
+    context_window: 256000
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "google/gemma-4-26b-a4b-it:free"
+    provider: "google"
+    context_window: 262144
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "google/gemma-4-31b-it:free"
+    provider: "google"
+    context_window: 262144
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "liquid/lfm-2.5-1.2b-instruct:free"
+    provider: "liquid"
+    context_window: 32768
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "liquid/lfm-2.5-1.2b-thinking:free"
+    provider: "liquid"
+    context_window: 32768
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "meta-llama/llama-3.2-3b-instruct:free"
+    provider: "meta-llama"
+    context_window: 131072
+    input_price_per_million: 0.0
+    output_price_per_million: 0.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "meta-llama/llama-3.1-8b-instruct"
+    provider: "meta-llama"
+    context_window: 131072
+    input_price_per_million: 0.02
+    output_price_per_million: 0.03
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "meta-llama/llama-3.2-1b-instruct"
+    provider: "meta-llama"
+    context_window: 131072
+    input_price_per_million: 0.027
+    output_price_per_million: 0.201
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "liquid/lfm-2-24b-a2b"
+    provider: "liquid"
+    context_window: 128000
+    input_price_per_million: 0.03
+    output_price_per_million: 0.12
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "cohere/command-r7b-12-2024"
+    provider: "cohere"
+    context_window: 128000
+    input_price_per_million: 0.0375
+    output_price_per_million: 0.15
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "qwen/qwen-2.5-7b-instruct"
+    provider: "qwen"
+    context_window: 131072
+    input_price_per_million: 0.04
+    output_price_per_million: 0.09999999999999999
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "arcee-ai/trinity-mini"
+    provider: "arcee-ai"
+    context_window: 131072
+    input_price_per_million: 0.045
+    output_price_per_million: 0.15
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "google/gemma-3-12b-it"
+    provider: "google"
+    context_window: 131072
+    input_price_per_million: 0.049999999999999996
+    output_price_per_million: 0.15
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "google/gemma-3-4b-it"
+    provider: "google"
+    context_window: 131072
+    input_price_per_million: 0.049999999999999996
+    output_price_per_million: 0.09999999999999999
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "ibm-granite/granite-4.1-8b"
+    provider: "ibm-granite"
+    context_window: 131072
+    input_price_per_million: 0.049999999999999996
+    output_price_per_million: 0.09999999999999999
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "google/gemma-3n-e4b-it"
+    provider: "google"
+    context_window: 32768
+    input_price_per_million: 0.06
+    output_price_per_million: 0.12
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "gryphe/mythomax-l2-13b"
+    provider: "gryphe"
+    context_window: 4096
+    input_price_per_million: 0.06
+    output_price_per_million: 0.06
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "google/gemma-3-27b-it"
+    provider: "google"
+    context_window: 131072
+    input_price_per_million: 0.08
+    output_price_per_million: 0.16
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "deepseek/deepseek-v4-flash"
+    provider: "deepseek"
+    context_window: 1048576
+    input_price_per_million: 0.09
+    output_price_per_million: 0.18
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "bytedance/ui-tars-1.5-7b"
+    provider: "bytedance"
+    context_window: 128000
+    input_price_per_million: 0.09999999999999999
+    output_price_per_million: 0.19999999999999998
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: true
+    eligibility_reason: "verified below thresholds"
+    notes: ""
+  - model_id: "meta-llama/llama-3.2-3b-instruct"
+    provider: "meta-llama"
+    context_window: 131072
+    input_price_per_million: 0.0509
+    output_price_per_million: 0.335
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "output price 0.335 >= 0.3"
+    notes: ""
+  - model_id: "google/gemma-4-26b-a4b-it"
+    provider: "google"
+    context_window: 262144
+    input_price_per_million: 0.06
+    output_price_per_million: 0.33
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "output price 0.33 >= 0.3"
+    notes: ""
+  - model_id: "bytedance-seed/seed-2.0-mini"
+    provider: "bytedance-seed"
+    context_window: 262144
+    input_price_per_million: 0.09999999999999999
+    output_price_per_million: 0.39999999999999997
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "output price 0.39999999999999997 >= 0.3"
+    notes: ""
+  - model_id: "google/gemini-2.5-flash-lite"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 0.09999999999999999
+    output_price_per_million: 0.39999999999999997
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "output price 0.39999999999999997 >= 0.3"
+    notes: ""
+  - model_id: "google/gemini-2.5-flash-lite-preview-09-2025"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 0.09999999999999999
+    output_price_per_million: 0.39999999999999997
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "output price 0.39999999999999997 >= 0.3"
+    notes: ""
+  - model_id: "google/gemma-4-31b-it"
+    provider: "google"
+    context_window: 262144
+    input_price_per_million: 0.12
+    output_price_per_million: 0.35
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.12 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m2.5"
+    provider: "minimax"
+    context_window: 204800
+    input_price_per_million: 0.12
+    output_price_per_million: 0.48
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.12 >= 0.12"
+    notes: ""
+  - model_id: "meta-llama/llama-3-8b-instruct"
+    provider: "meta-llama"
+    context_window: 8192
+    input_price_per_million: 0.14
+    output_price_per_million: 0.14
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.14 >= 0.12"
+    notes: ""
+  - model_id: "allenai/olmo-3-32b-think"
+    provider: "allenai"
+    context_window: 65536
+    input_price_per_million: 0.15
+    output_price_per_million: 0.5
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.15 >= 0.12"
+    notes: ""
+  - model_id: "meta-llama/llama-guard-4-12b"
+    provider: "meta-llama"
+    context_window: 163840
+    input_price_per_million: 0.18
+    output_price_per_million: 0.18
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.18 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m2.7"
+    provider: "minimax"
+    context_window: 204800
+    input_price_per_million: 0.18
+    output_price_per_million: 0.72
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.18 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-01"
+    provider: "minimax"
+    context_window: 1000192
+    input_price_per_million: 0.19999999999999998
+    output_price_per_million: 1.1
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.19999999999999998 >= 0.12"
+    notes: ""
+  - model_id: "mistralai/ministral-14b-2512"
+    provider: "mistralai"
+    context_window: 262144
+    input_price_per_million: 0.19999999999999998
+    output_price_per_million: 0.19999999999999998
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.19999999999999998 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-flash-lite"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 0.25
+    output_price_per_million: 1.5
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.25 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-flash-lite-image"
+    provider: "google"
+    context_window: 65536
+    input_price_per_million: 0.25
+    output_price_per_million: 1.5
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.25 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-flash-lite-preview"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 0.25
+    output_price_per_million: 1.5
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.25 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m2"
+    provider: "minimax"
+    context_window: 204800
+    input_price_per_million: 0.255
+    output_price_per_million: 1.02
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.255 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-2.5-flash"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 0.3
+    output_price_per_million: 2.5
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.3 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-2.5-flash-image"
+    provider: "google"
+    context_window: 32768
+    input_price_per_million: 0.3
+    output_price_per_million: 2.5
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.3 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m2-her"
+    provider: "minimax"
+    context_window: 65536
+    input_price_per_million: 0.3
+    output_price_per_million: 1.2
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.3 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m2.1"
+    provider: "minimax"
+    context_window: 204800
+    input_price_per_million: 0.3
+    output_price_per_million: 1.2
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.3 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m3"
+    provider: "minimax"
+    context_window: 1048576
+    input_price_per_million: 0.3
+    output_price_per_million: 1.2
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.3 >= 0.12"
+    notes: ""
+  - model_id: "meta-llama/llama-3.2-11b-vision-instruct"
+    provider: "meta-llama"
+    context_window: 131072
+    input_price_per_million: 0.345
+    output_price_per_million: 0.345
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.345 >= 0.12"
+    notes: ""
+  - model_id: "minimax/minimax-m1"
+    provider: "minimax"
+    context_window: 1000000
+    input_price_per_million: 0.39999999999999997
+    output_price_per_million: 2.2
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.39999999999999997 >= 0.12"
+    notes: ""
+  - model_id: "baidu/ernie-4.5-vl-424b-a47b"
+    provider: "baidu"
+    context_window: 131072
+    input_price_per_million: 0.42
+    output_price_per_million: 1.25
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.42 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3-flash-preview"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 0.5
+    output_price_per_million: 3.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.5 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-flash-image"
+    provider: "google"
+    context_window: 131072
+    input_price_per_million: 0.5
+    output_price_per_million: 3.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.5 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-flash-image-preview"
+    provider: "google"
+    context_window: 131072
+    input_price_per_million: 0.5
+    output_price_per_million: 3.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.5 >= 0.12"
+    notes: ""
+  - model_id: "microsoft/wizardlm-2-8x22b"
+    provider: "microsoft"
+    context_window: 65536
+    input_price_per_million: 0.62
+    output_price_per_million: 0.62
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.62 >= 0.12"
+    notes: ""
+  - model_id: "google/gemma-2-27b-it"
+    provider: "google"
+    context_window: 8192
+    input_price_per_million: 0.65
+    output_price_per_million: 0.65
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.65 >= 0.12"
+    notes: ""
+  - model_id: "aion-labs/aion-1.0-mini"
+    provider: "aion-labs"
+    context_window: 131072
+    input_price_per_million: 0.7
+    output_price_per_million: 1.4
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.7 >= 0.12"
+    notes: ""
+  - model_id: "aion-labs/aion-rp-llama-3.1-8b"
+    provider: "aion-labs"
+    context_window: 32768
+    input_price_per_million: 0.7999999999999999
+    output_price_per_million: 1.5999999999999999
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 0.7999999999999999 >= 0.12"
+    notes: ""
+  - model_id: "deepcogito/cogito-v2.1-671b"
+    provider: "deepcogito"
+    context_window: 128000
+    input_price_per_million: 1.25
+    output_price_per_million: 1.25
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 1.25 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-2.5-pro"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 1.25
+    output_price_per_million: 10.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 1.25 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-2.5-pro-preview"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 1.25
+    output_price_per_million: 10.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 1.25 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-2.5-pro-preview-05-06"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 1.25
+    output_price_per_million: 10.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 1.25 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.5-flash"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 1.5
+    output_price_per_million: 9.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 1.5 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3-pro-image"
+    provider: "google"
+    context_window: 65536
+    input_price_per_million: 2.0
+    output_price_per_million: 12.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 2.0 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3-pro-image-preview"
+    provider: "google"
+    context_window: 65536
+    input_price_per_million: 2.0
+    output_price_per_million: 12.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 2.0 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-pro-preview"
+    provider: "google"
+    context_window: 1048576
+    input_price_per_million: 2.0
+    output_price_per_million: 12.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 2.0 >= 0.12"
+    notes: ""
+  - model_id: "google/gemini-3.1-pro-preview-customtools"
+    provider: "google"
+    context_window: 1048756
+    input_price_per_million: 2.0
+    output_price_per_million: 12.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 2.0 >= 0.12"
+    notes: ""
+  - model_id: "anthracite-org/magnum-v4-72b"
+    provider: "anthracite-org"
+    context_window: 32768
+    input_price_per_million: 3.0
+    output_price_per_million: 5.0
+    price_source_url: "https://openrouter.ai/api/v1/models"
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "input price 3.0 >= 0.12"
+    notes: ""
+  - model_id: "google/gemma-2-9b-it"
+    provider: "google"
+    context_window: null
+    input_price_per_million: null
+    output_price_per_million: null
+    price_source_url: ""
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "not found in catalog"
+    notes: "seed candidate not present in OpenRouter catalog"
+  - model_id: "mistralai/mistral-7b-instruct"
+    provider: "mistralai"
+    context_window: null
+    input_price_per_million: null
+    output_price_per_million: null
+    price_source_url: ""
+    price_checked_at: "2026-07-06T16:56:29.507539+00:00"
+    eligible: false
+    eligibility_reason: "not found in catalog"
+    notes: "seed candidate not present in OpenRouter catalog"
